@@ -1,0 +1,292 @@
+# 🌾 Shonali Desh - Secure Your Harvest
+
+<div align="center">
+
+![Shonali Desh Logo](./images/Logo.png)
+
+**AI-Powered Agricultural Platform for Bangladeshi Farmers**
+
+[![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.4.1-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+[Live Demo](https://shonali-desh.vercel.app) • [Report Bug](https://github.com/abrar-khan-alvi/Shonali-Desh-Website/issues) • [Request Feature](https://github.com/abrar-khan-alvi/Shonali-Desh-Website/issues)
+
+</div>
+
+---
+
+## 📖 About The Project
+
+**Shonali Desh** (শোনালী দেশ) is a revolutionary agricultural technology platform designed to combat climate change impacts on Bangladeshi farmers. We connect farmers with verified agricultural experts and provide hyperlocal AI-powered warnings to predict disasters before they strike.
+
+### 🎯 Mission
+
+To empower Bangladeshi farmers with cutting-edge technology, enabling them to:
+- Predict climate disasters 48 hours in advance
+- Access verified agricultural experts instantly
+- Diagnose crop diseases using AI
+- Make data-driven farming decisions
+
+---
+
+## ✨ Key Features
+
+### 🌍 **Hyperlocal AI Warnings**
+- Upazila-level weather predictions
+- 48-hour advance flood warnings
+- Satellite imagery analysis
+- Real-time weather station data
+
+### 📊 **Real-Time Ground-Truth Data**
+- Proprietary IoT field sensors
+- 24/7 monitoring of soil salinity, temperature, and moisture
+- Live data feeds for accurate AI predictions
+
+### 👨‍🌾 **Verified Expert Marketplace**
+- Instant connection with certified agricultural officers
+- Photo-based crop diagnosis
+- Treatment plans within minutes
+- Expert ratio: 1:675 (improving accessibility)
+
+### 🤖 **AI Crop Doctor**
+- Computer vision for disease identification
+- 50+ disease recognition
+- Precise medicine dosage recommendations
+- Instant diagnosis from leaf photos
+
+---
+
+## 🛠️ Built With
+
+- **Frontend Framework:** React 19.2.0 with TypeScript
+- **Build Tool:** Vite 6.4.1
+- **Styling:** Tailwind CSS 3.4.17
+- **Animations:** GSAP 3.13.0
+- **Icons:** Lucide React 0.555.0
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/abrar-khan-alvi/Shonali-Desh-Website.git
+   cd Shonali-Desh-Website
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   ```
+   Navigate to http://localhost:5173
+   ```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The optimized production build will be in the `dist/` directory.
+
+---
+
+## 📁 Project Structure
+
+```
+shonali-desh/
+├── components/           # React components
+│   ├── Hero.tsx         # Landing hero section
+│   ├── Problem.tsx      # Problem statement showcase
+│   ├── Features.tsx     # Feature highlights
+│   ├── Team.tsx         # Team member profiles
+│   ├── JoinUs.tsx       # Call-to-action section
+│   ├── FarmerModal.tsx  # Farmer app download modal
+│   ├── ExpertModal.tsx  # Expert application modal
+│   ├── Navbar.tsx       # Navigation bar
+│   └── Footer.tsx       # Footer component
+├── images/              # Static assets
+│   ├── Logo.png
+│   ├── banner.jpg
+│   ├── Flash Floods.png
+│   ├── Salinity Spike.png
+│   ├── Information Gap.png
+│   ├── Hyperlocal AI Warnings.png
+│   ├── Real-Time Ground-Truth Data.png
+│   ├── Verified Expert Marketplace.png
+│   ├── AI Crop Doctor.png
+│   └── [team photos]
+├── App.tsx              # Main application component
+├── index.tsx            # Application entry point
+├── index.css            # Global styles
+├── index.html           # HTML template
+├── vite.config.ts       # Vite configuration
+├── tsconfig.json        # TypeScript configuration
+└── package.json         # Project dependencies
+```
+
+---
+
+## 👥 Team
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./images/abrar.jpg" width="100px;" alt="Abrar Khan Alvi"/><br />
+      <sub><b>Abrar Khan Alvi</b></sub><br />
+      <sub>Project Lead & Systems Architect</sub><br />
+      <a href="https://github.com/abrar-khan-alvi">GitHub</a> • 
+      <a href="https://www.linkedin.com/in/abrarkhanalvi/">LinkedIn</a>
+    </td>
+    <td align="center">
+      <img src="./images/zenunchowdhury.png" width="100px;" alt="Zenun Chowdhury"/><br />
+      <sub><b>Zenun Chowdhury</b></sub><br />
+      <sub>Lead AI/ML Developer</sub><br />
+      <a href="https://github.com/zenuncrack">GitHub</a> • 
+      <a href="https://www.linkedin.com/in/zenun-chowdhury-770629223/">LinkedIn</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./images/afiafahmida.png" width="100px;" alt="Afia Fahmida Dona"/><br />
+      <sub><b>Afia Fahmida Dona</b></sub><br />
+      <sub>Operations & User Experience Lead</sub><br />
+      <a href="https://github.com/afiafahmida">GitHub</a> • 
+      <a href="https://www.linkedin.com/in/afia-fahmida-1b1b65243/">LinkedIn</a>
+    </td>
+    <td align="center">
+      <img src="./images/hmziyad.png" width="100px;" alt="HM Ziyad"/><br />
+      <sub><b>HM Ziyad</b></sub><br />
+      <sub>IoT & Data Engineer</sub><br />
+      <a href="https://github.com/HMZiyad">GitHub</a> • 
+      <a href="https://www.linkedin.com/in/hm-ziyad-09154b234/">LinkedIn</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 Impact Statistics
+
+- **৳100 Billion** - Annual losses from flash floods (prevented)
+- **-40%** - Yield decrease from salinity spike (mitigated)
+- **1:675** - Expert-to-farmer ratio (improving accessibility)
+- **48 Hours** - Advance warning for climate disasters
+- **50+** - Crop diseases identifiable by AI
+
+---
+
+## 🎨 Design Features
+
+- **Modern UI/UX:** Clean, intuitive interface with smooth animations
+- **Responsive Design:** Optimized for desktop, tablet, and mobile
+- **Accessibility:** WCAG 2.1 compliant
+- **Performance:** Optimized bundle size (381 kB gzipped: 124 kB)
+- **Animations:** GSAP-powered scroll effects and transitions
+- **Bilingual:** Bengali and English support
+
+---
+
+## 🔧 Configuration
+
+### Tailwind Configuration
+
+The project uses a custom Tailwind configuration with brand colors:
+
+```javascript
+colors: {
+  primary: '#276749',      // Primary green
+  primaryDark: '#1C4A33',  // Dark green
+  accent: '#D69E2E',       // Gold accent
+  bgLight: '#F7FAFC',      // Light background
+  textDark: '#2D3748',     // Dark text
+  textLight: '#718096',    // Light text
+}
+```
+
+---
+
+## 📝 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+
+---
+
+## 🌐 Deployment
+
+This project is configured for easy deployment on Vercel:
+
+1. Push your code to GitHub
+2. Import the repository in Vercel
+3. Vercel will auto-detect Vite and deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/abrar-khan-alvi/Shonali-Desh-Website)
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📞 Contact
+
+**Project Link:** [https://github.com/abrar-khan-alvi/Shonali-Desh-Website](https://github.com/abrar-khan-alvi/Shonali-Desh-Website)
+
+**Email:** [Contact Team](mailto:abrarkhanalvi@gmail.com)
+
+---
+
+## 🙏 Acknowledgments
+
+- [React](https://react.dev/) - UI Framework
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [GSAP](https://greensock.com/gsap/) - Animations
+- [Lucide Icons](https://lucide.dev/) - Icon Library
+- [Unsplash](https://unsplash.com/) - Stock Images
+
+---
+
+<div align="center">
+
+**Made with ❤️ for Bangladeshi Farmers**
+
+⭐ Star this repo if you find it helpful!
+
+</div>
